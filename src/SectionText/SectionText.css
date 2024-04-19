@@ -1,0 +1,15 @@
+.sectionText {
+  display:flex;
+  flex-direction: column;
+  max-width: 450px;
+  color: white;
+  gap: 10px;
+}
+.sectionText h1{
+  font-size: 2.7rem;
+}
+@media (max-width:1092px) {
+  .sectionText {
+    text-align: center;
+  }
+}
